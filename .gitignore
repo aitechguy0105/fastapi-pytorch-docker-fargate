@@ -1,2 +1,7 @@
 linear_model.pth
-.idea
+.git/*
+.idea/*
+*.whl
+*.zip
+**/__pycache__/
+venv/*

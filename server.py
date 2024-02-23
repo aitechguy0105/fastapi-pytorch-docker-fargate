@@ -18,3 +18,6 @@ async def predict(input_data: float):
     input_tensor = torch.tensor([[input_data]], dtype=torch.float32)
     prediction = model(input_tensor)
     return {"prediction": prediction.item()}
+@app.get("/")
+async def read_root():
+    return {"message": "Hello, World!"}
