@@ -9,6 +9,10 @@ https://drive.google.com/file/d/1IUCfL1uuWOn-MCixitZ0jmAfEEB5KiPV/view?usp=shari
 - Docker: Used for containerization of the application.
 - FastAPI: Used as the web server for serving the AI model.
 - AWS Fargate: Used for deployment of the application.
+## How to build DockerImage
+- Install Docker
+- In Destination folder run this command: `docker build -t docker_image_name .`
+
 ## Deployment
 The application is deployed using Amazon CloudFormation and AWS Fargate. The necessary configuration files for deployment are included in the repository.
 
