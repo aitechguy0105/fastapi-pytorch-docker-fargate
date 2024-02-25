@@ -12,7 +12,9 @@ https://drive.google.com/file/d/1IUCfL1uuWOn-MCixitZ0jmAfEEB5KiPV/view?usp=shari
 ## How to build DockerImage
 - Install Docker
 - In Destination folder run this command: `docker build -t docker_image_name .`
-
+## Why whl file is included?
+Unfortunately, installing Torch 2.2.0 with the requirements file failed.
+This is because fastapi is supported in Python 3.8 and above, and docker couldn't find a stable version in the his environment.
 ## Deployment
 The application is deployed using Amazon CloudFormation and AWS Fargate. The necessary configuration files for deployment are included in the repository.
 
