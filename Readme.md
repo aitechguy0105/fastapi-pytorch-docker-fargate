@@ -18,6 +18,31 @@ This is because fastapi is supported in Python 3.8 and above, and docker couldn'
 ## Deployment
 The application is deployed using Amazon CloudFormation and AWS Fargate. The necessary configuration files for deployment are included in the repository.
 
+![Image Description](./descrition_images/1.PNG)
+![Image Description](./descrition_images/2.PNG)
+![Image Description](./descrition_images/3.PNG)
+![Image Description](./descrition_images/4.PNG)
+![Image Description](./descrition_images/5.PNG)
+![Image Description](./descrition_images/6.PNG)
+![Image Description](./descrition_images/7.PNG)
+![Image Description](./descrition_images/8.PNG)
+![Image Description](./descrition_images/9.PNG)
+![Image Description](./descrition_images/10.PNG)
+![Image Description](./descrition_images/11.PNG)
+![Image Description](./descrition_images/12.PNG)
+![Image Description](./descrition_images/13.PNG)
+![Image Description](./descrition_images/14.PNG)
+![Image Description](./descrition_images/15.PNG)
+![Image Description](./descrition_images/16.PNG)
+![Image Description](./descrition_images/17.PNG)
+![Image Description](./descrition_images/18.PNG)
+![Image Description](./descrition_images/19.PNG)
+![Image Description](./descrition_images/20.PNG)
+![Image Description](./descrition_images/21.PNG)
+![Image Description](./descrition_images/22.PNG)
+![Image Description](./descrition_images/23.PNG)
+![Image Description](./descrition_images/24.PNG)
+
 ## Usage
 To run the application locally, follow these steps:
 
