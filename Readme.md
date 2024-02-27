@@ -17,29 +17,40 @@ Unfortunately, installing Torch 2.2.0 with the requirements file failed.
 This is because fastapi is supported in Python 3.8 and above, and docker couldn't find a stable version in the his environment.
 ## Deployment
 The application is deployed using Amazon CloudFormation and AWS Fargate. The necessary configuration files for deployment are included in the repository.
-
+- Build image
 ![Image Description](./descrition_images/1.PNG)
+- Set up ECR
 ![Image Description](./descrition_images/2.PNG)
 ![Image Description](./descrition_images/3.PNG)
+- Tag Image
 ![Image Description](./descrition_images/4.PNG)
+- Log in
 ![Image Description](./descrition_images/5.PNG)
 ![Image Description](./descrition_images/6.PNG)
+- Push Image
 ![Image Description](./descrition_images/7.PNG)
+- Create Cluster
 ![Image Description](./descrition_images/8.PNG)
 ![Image Description](./descrition_images/9.PNG)
 ![Image Description](./descrition_images/10.PNG)
+- Define Task
 ![Image Description](./descrition_images/11.PNG)
 ![Image Description](./descrition_images/12.PNG)
 ![Image Description](./descrition_images/13.PNG)
 ![Image Description](./descrition_images/14.PNG)
+
 ![Image Description](./descrition_images/15.PNG)
+- Create Service
 ![Image Description](./descrition_images/16.PNG)
 ![Image Description](./descrition_images/17.PNG)
 ![Image Description](./descrition_images/18.PNG)
-![Image Description](./descrition_images/19.PNG)
+![Image Description](./descrition_images/19.png)
 ![Image Description](./descrition_images/20.PNG)
+- Confirm the task is running
 ![Image Description](./descrition_images/21.PNG)
-![Image Description](./descrition_images/22.PNG)
+![Image Description](./descrition_images/22.png)
+- Test the result
+
 ![Image Description](./descrition_images/23.PNG)
 ![Image Description](./descrition_images/24.PNG)
 
