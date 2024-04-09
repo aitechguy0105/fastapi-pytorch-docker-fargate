@@ -75,5 +75,5 @@ Access the FastAPI web server at http://localhost:8000.
 ## Contributors
 
 Feel free to contribute to this project by creating a pull request. If you have any questions or suggestions, please open an issue.
-Please cantact if any issues. aitechguy0105@gmail.com
+Please cantact if any issues.
 Thank you for checking out this demo project!
